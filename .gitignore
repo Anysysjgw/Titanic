@@ -1,1 +1,8 @@
 /build/
+
+
+# ignore eclipse files
+.project
+.classpath
+.settings
+.metadata
