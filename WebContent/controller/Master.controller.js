@@ -235,6 +235,11 @@ sap.ui.define([
 			onNavBack : function() {
 				history.go(-1);
 			},
+			
+			onCreateModel : function (oEvent) {
+				alert('Create Button is Pressed!');
+			},
+
 
 			/* =========================================================== */
 			/* begin: internal methods                                     */
